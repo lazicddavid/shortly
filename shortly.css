@@ -1,4 +1,24 @@
 body {
   box-sizing: border-box;
+  max-width: 1000px;
   margin: 0 auto;
+}
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  gap: 20px;
+  align-items: center;
+  font-family: sans-serif;
+  color: lightslategray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-side {
+  display: flex;
+  justify-content: space-between;
 }
