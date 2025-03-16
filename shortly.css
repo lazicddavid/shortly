@@ -117,3 +117,46 @@ button:hover {
 .title2 p {
   color: gray;
 }
+
+.cards-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+  background-color: cyan;
+}
+
+.circle {
+  margin: 5px;
+  width: 70px;
+  height: 70px;
+  background-color: #3a2a5e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.circle img {
+  width: 40px;
+  height: 40px;
+}
+
+.card h3 {
+  font-size: large;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.card p {
+  color: gray;
+  font-size: small;
+  text-align: center;
+}
