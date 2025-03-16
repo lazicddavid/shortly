@@ -30,13 +30,90 @@ body {
 }
 
 .main-title {
+  h1 {
+    margin: 0 auto;
+    font-size: 3.5rem;
+    font-weight: bolder;
+  }
+  p {
+    margin-top: 10px;
+    color: gray;
+    text-align: left;
+    line-height: 1.2;
+  }
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.btn1,
+.btn2 {
+  margin: 10px 0;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 40px;
+  background-color: pink;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .header-img {
-  max-width: 550px;
-  
+  margin-left: 100px;
+}
 
-img {
-  width: 700px;
-  height: 400px;
+.header-img img {
+  background-size: contain;
+  width: 500px;
+  height: 350px;
+}
+
+.search-container {
+  background-color: #3a2a5e;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+
+input {
+  padding: 12px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  display: flex;
+  background-color: #2acfcf;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #26bdbd;
+}
+
+.title2 {
+  text-align: center;
+}
+
+.title2 h2 {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.title2 p {
+  color: gray;
 }
